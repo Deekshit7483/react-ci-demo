@@ -20,7 +20,7 @@ function App() {
     <main style={{ maxWidth: 600, margin: '40px auto', fontFamily: 'system-ui' }}>
       <h2>Hello, Deekshith H R!</h2>
       <h1>User list</h1>
-      <p>Deployed automatically with GitHub Actions.</p>
+      <p>deploying second time to check the changes deployed automatically with GitHub Actions.</p>
       {loading && <p>Loading…</p>}
       {error && <p style={{ color: 'crimson' }}>{error}</p>}
       <ul>
