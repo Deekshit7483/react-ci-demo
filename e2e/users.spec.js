@@ -14,7 +14,7 @@ test('shows the users returned by the API', async ({ page }) => {
   await page.goto('./')
 
   await expect(page.getByRole('heading', { name: 'User list' })).toBeVisible()
-  await expect(page.getByRole('listitem')).toHaveCount(2)
+  await expect(page.getByRole('listitem')).toHaveCount(3)
   // formatName() should have trimmed the spaces
   await expect(page.getByText('Test User', { exact: true })).toBeVisible()
 })
